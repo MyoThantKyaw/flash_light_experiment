@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <script src='threex.volumetricspotlightmaterial.js'></script> -->
+</head>
+<body>
+    <div id="view-3d">
+
+    </div>
+    <div id="side-bar">
+        <input type="range" min="-40" max="40" value="0" step = "1" class="slider" id="flashLight-y-pos">
+
+        <label id="fl-switch" class="switch">
+            <input id="fl-switch-checkbox"  type="checkbox">
+            <span  class="slider-switch round"></span>
+          </label>
+          
+    </div>
+    <script src="app.bundle.3d.js"></script>
+    
+</body>
+</html>
